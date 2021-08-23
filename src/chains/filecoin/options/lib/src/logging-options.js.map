@@ -1,0 +1,1 @@
+{"version":3,"file":"logging-options.js","sourceRoot":"","sources":["../../src/logging-options.ts"],"names":[],"mappings":";;;AAAA,uCAAsC;AA4BtC,MAAM,MAAM,GAAG,EAAE,GAAG,EAAE,OAAO,CAAC,GAAG,EAAE,CAAC;AAEvB,QAAA,cAAc,GAA+B;IACxD,MAAM,EAAE;QACN,SAAS,EAAT,mBAAS;QACT,cAAc,EACZ,8DAA8D;QAChE,YAAY,EAAE,IAAI;QAClB,OAAO,EAAE,GAAG,EAAE,CAAC,MAAM;KACtB;CACF,CAAC"}

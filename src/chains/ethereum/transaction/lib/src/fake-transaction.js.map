@@ -1,0 +1,1 @@
+{"version":3,"file":"fake-transaction.js","sourceRoot":"","sources":["../../src/fake-transaction.ts"],"names":[],"mappings":";;;AAEA,+DAA2D;AAE3D;;GAEG;AAEH,MAAa,eAAgB,SAAQ,wCAAkB;IACrD,YAAY,IAAoB,EAAE,MAAc;QAC9C,KAAK,CAAC,IAAI,EAAE,MAAM,CAAC,CAAC;QAEpB,IAAI,IAAI,CAAC,IAAI,IAAI,IAAI,EAAE;YACrB,MAAM,IAAI,KAAK,CACb,qEAAqE,CACtE,CAAC;SACH;IACH,CAAC;CACF;AAVD,0CAUC"}

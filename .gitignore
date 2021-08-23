@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.vscode
+.nyc_output
+lerna-debug.log
+npm-debug.log
+#src/**/*/lib
+coverage
+#dist/
+typings/

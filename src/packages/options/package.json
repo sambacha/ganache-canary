@@ -1,0 +1,60 @@
+{
+  "name": "@ganache/options",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.1.1-canary.1339",
+  "description": "Ganache's server/provider options TypeScript types",
+  "author": "David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)",
+  "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/packages/options#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "typings",
+  "source": "index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trufflesuite/ganache.git",
+    "directory": "src/packages/options"
+  },
+  "scripts": {
+    "tsc": "ttsc --build",
+    "test": "echo 'no tests'"
+  },
+  "bugs": {
+    "url": "https://github.com/trufflesuite/ganache/issues"
+  },
+  "keywords": [
+    "ganache",
+    "ganache-options",
+    "ethereum",
+    "evm",
+    "blockchain",
+    "smart contracts",
+    "dapps",
+    "solidity",
+    "vyper",
+    "fe",
+    "web3",
+    "tooling"
+  ],
+  "dependencies": {
+    "@ganache/utils": "0.1.1-canary.1339",
+    "bip39": "3.0.2",
+    "seedrandom": "3.0.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "8.2.2",
+    "cross-env": "7.0.3",
+    "mocha": "8.4.0",
+    "ts-node": "9.1.1",
+    "ttypescript": "1.5.12",
+    "typescript": "4.1.3"
+  }
+}

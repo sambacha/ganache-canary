@@ -1,0 +1,62 @@
+{
+  "name": "@ganache/tezos",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.1.1-canary.1339",
+  "description": "Ganache's Tezos client implementation",
+  "author": "David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)",
+  "homepage": "https://github.com/trufflesuite/ganache/tree/develop/src/chains/tezos/tezos#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "typings",
+  "source": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trufflesuite/ganache.git",
+    "directory": "src/chains/tezos/tezos"
+  },
+  "scripts": {
+    "tsc": "ttsc --build",
+    "test": "echo 'no tests'"
+  },
+  "bugs": {
+    "url": "https://github.com/trufflesuite/ganache/issues"
+  },
+  "keywords": [
+    "ganache",
+    "ganache-tezos",
+    "tezos",
+    "blockchain",
+    "smart contracts",
+    "dapps",
+    "michelson",
+    "tooling"
+  ],
+  "dependencies": {
+    "@ganache/options": "0.1.1-canary.1339",
+    "@ganache/utils": "0.1.1-canary.1339",
+    "emittery": "0.7.2"
+  },
+  "devDependencies": {
+    "@trufflesuite/typedoc-default-themes": "0.6.1",
+    "@trufflesuite/uws-js-unofficial": "18.14.0-unofficial.9",
+    "@types/mocha": "8.2.2",
+    "cheerio": "1.0.0-rc.3",
+    "cross-env": "7.0.3",
+    "local-web-server": "4.2.1",
+    "mocha": "8.4.0",
+    "ts-node": "9.1.1",
+    "ttypescript": "1.5.12",
+    "typedoc": "0.17.8",
+    "typescript": "4.1.3"
+  }
+}
